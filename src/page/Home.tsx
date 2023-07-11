@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className="flex flex-col gap-14">
       <div>
-        <div className="px-10 pt-3">
+        <div className="px-10 pt-3 bg-blue">
           <NavBarOthers />
         </div>
         <div className="bg-blue px-10 py-4">

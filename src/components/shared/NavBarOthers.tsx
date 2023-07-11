@@ -5,7 +5,7 @@ function NavBarOthers() {
   const location = useLocation();
 
   return (
-    <div className="flex flex-row items-center gap-10 bg-white">
+    <div className="flex flex-row items-center gap-10 bg-blue">
       <img
         src="/static/images/Logo_ASJ_2018.jpg"
         width={310}
@@ -15,8 +15,10 @@ function NavBarOthers() {
       <Link
         to={"/"}
         className={clsx(
-          "py-4 px-10 text-white",
-          location.pathname === "/" ? "bg-yellow" : "bg-blue"
+          "py-4 px-10",
+          location.pathname === "/"
+            ? "bg-yellow text-black"
+            : "bg-blue text-white border-2 border-solid border-white"
         )}
       >
         Home
@@ -24,8 +26,10 @@ function NavBarOthers() {
       <Link
         to={"/service"}
         className={clsx(
-          "py-4 px-10 text-white",
-          location.pathname === "/service" ? "bg-yellow" : "bg-blue"
+          "py-4 px-10",
+          location.pathname === "/service"
+            ? "bg-yellow text-black"
+            : "bg-blue text-white border-2 border-solid border-white"
         )}
       >
         Service
@@ -33,8 +37,10 @@ function NavBarOthers() {
       <Link
         to={"/company"}
         className={clsx(
-          "py-4 px-10 text-white",
-          location.pathname === "/company" ? "bg-yellow" : "bg-blue "
+          "py-4 px-10 ",
+          location.pathname === "/company"
+            ? "bg-yellow text-black"
+            : "bg-blue text-white border-2 border-solid border-white"
         )}
       >
         Company
@@ -42,8 +48,10 @@ function NavBarOthers() {
       <Link
         to={"/contact"}
         className={clsx(
-          "py-4 px-10 text-white",
-          location.pathname === "/contact" ? "bg-yellow" : "bg-blue"
+          "py-4 px-10",
+          location.pathname === "/contact"
+            ? "bg-yellow text-black"
+            : "bg-blue text-white border-2 border-solid border-white"
         )}
       >
         Contact
