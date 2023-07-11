@@ -3,6 +3,9 @@ import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./index.css";
 import Home from "./page/Home";
+import Service from "./page/Service";
+import Company from "./page/Company";
+import Contact from "./page/Contact";
 
 export const router = createBrowserRouter([
   {
@@ -11,17 +14,15 @@ export const router = createBrowserRouter([
   },
   {
     path: "/service",
-    element: (
-      <div className="bg-slate-500 text-red-700">Hello from Service</div>
-    ),
+    element: <Service />,
   },
   {
     path: "/company",
-    element: <div>Hello from companyS</div>,
+    element: <Company />,
   },
   {
     path: "/contact",
-    element: <div>Hello from contact</div>,
+    element: <Contact />,
   },
 ]);
 
