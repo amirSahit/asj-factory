@@ -14,15 +14,22 @@ function NavBarOthers() {
       />
       <Link
         to={"/"}
-        className="border-4 border-solid border-white py-4 px-10 text-white bg-blue"
+        className={clsx(
+          "py-4 px-10 text-white",
+          location.pathname === "/"
+            ? "bg-yellow"
+            : "bg-blue border-4 border-solid border-white "
+        )}
       >
         Home
       </Link>
       <Link
         to={"/service"}
         className={clsx(
-          "border-4 border-solid border-white py-4 px-10 text-white",
-          location.pathname === "/service" ? "bg-yellow" : "bg-blue"
+          "py-4 px-10 text-white",
+          location.pathname === "/service"
+            ? "bg-yellow"
+            : "bg-blue border-4 border-solid border-white "
         )}
       >
         Service
@@ -30,8 +37,10 @@ function NavBarOthers() {
       <Link
         to={"/company"}
         className={clsx(
-          "border-4 border-solid border-white py-4 px-10 text-white",
-          location.pathname === "/company" ? "bg-yellow" : "bg-blue"
+          "py-4 px-10 text-white",
+          location.pathname === "/company"
+            ? "bg-yellow"
+            : "bg-blue border-4 border-solid border-white "
         )}
       >
         Company
@@ -39,8 +48,10 @@ function NavBarOthers() {
       <Link
         to={"/contact"}
         className={clsx(
-          "border-4 border-solid border-white py-4 px-10 text-white",
-          location.pathname === "/contact" ? "bg-yellow" : "bg-blue"
+          "py-4 px-10 text-white",
+          location.pathname === "/contact"
+            ? "bg-yellow"
+            : "bg-blue border-4 border-solid border-white "
         )}
       >
         Contact

@@ -2,7 +2,7 @@ import NavBarOthers from "../components/shared/NavBarOthers";
 
 function Service() {
   return (
-    <div>
+    <div className="bg-blue px-10 py-3">
       <NavBarOthers />
     </div>
   );
