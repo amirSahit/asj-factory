@@ -10,8 +10,16 @@ h2 {
   @apply text-2xl font-bold italic;
 }
 
+h3 {
+  @apply text-2xl font-bold;
+}
+
 p {
-  @apply text-2xl;
+  @apply text-xl;
+}
+
+li {
+  @apply text-xl;
 }
 
 .imageShadow {
