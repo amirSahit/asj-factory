@@ -2,7 +2,7 @@ function HomeHeader() {
   return (
     <div className="relative mt-6">
       <img
-        src="src/assets/images/bridge-dessau.jpeg"
+        src="public/images/bridge-dessau.jpeg"
         alt="Bridge in Dessau/Germany"
         className="w-[80%] h-[633px] border-4-white"
       />
