@@ -14,7 +14,7 @@ function HomeLowerPart() {
       </div>
       <div className="flex flex-row justify-around gap-14 items-center">
         <img
-          src="public\static\images\laser-cutter-cutting-metal.jpeg"
+          src="\static\images\laser-cutter-cutting-metal.jpeg"
           alt="Laser cutter cutting metal"
           className="imageShadow w-[40%] h-[40%]"
         />

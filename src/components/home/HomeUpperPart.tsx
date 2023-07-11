@@ -24,7 +24,7 @@ function HomeUpperPart() {
         </div>
       </div>
       <img
-        src="public/static/images/image-home.jpg"
+        src="/static/images/image-home.jpg"
         className="w-[40%] h-[40%] imageShadow"
       />
     </div>
