@@ -8,7 +8,7 @@ function Service() {
   const [isClicked, setIsClicked] = useState(1);
   return (
     <>
-      <header className="bg-blue px-10 py-3">
+      <header className="bg-white px-10 py-3">
         <NavBarOthers />
       </header>
       <div className="flex flex-row w-full gap-24 px-10 py-10">

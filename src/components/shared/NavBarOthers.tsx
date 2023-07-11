@@ -5,7 +5,7 @@ function NavBarOthers() {
   const location = useLocation();
 
   return (
-    <div className="flex flex-row items-center gap-10">
+    <div className="flex flex-row items-center gap-10 bg-white">
       <img
         src="/static/images/Logo_ASJ_2018.jpg"
         width={310}
@@ -16,9 +16,7 @@ function NavBarOthers() {
         to={"/"}
         className={clsx(
           "py-4 px-10 text-white",
-          location.pathname === "/"
-            ? "bg-yellow"
-            : "bg-blue border-4 border-solid border-white "
+          location.pathname === "/" ? "bg-yellow" : "bg-blue"
         )}
       >
         Home
@@ -27,9 +25,7 @@ function NavBarOthers() {
         to={"/service"}
         className={clsx(
           "py-4 px-10 text-white",
-          location.pathname === "/service"
-            ? "bg-yellow"
-            : "bg-blue border-4 border-solid border-white "
+          location.pathname === "/service" ? "bg-yellow" : "bg-blue"
         )}
       >
         Service
@@ -38,9 +34,7 @@ function NavBarOthers() {
         to={"/company"}
         className={clsx(
           "py-4 px-10 text-white",
-          location.pathname === "/company"
-            ? "bg-yellow"
-            : "bg-blue border-4 border-solid border-white "
+          location.pathname === "/company" ? "bg-yellow" : "bg-blue "
         )}
       >
         Company
@@ -49,9 +43,7 @@ function NavBarOthers() {
         to={"/contact"}
         className={clsx(
           "py-4 px-10 text-white",
-          location.pathname === "/contact"
-            ? "bg-yellow"
-            : "bg-blue border-4 border-solid border-white "
+          location.pathname === "/contact" ? "bg-yellow" : "bg-blue"
         )}
       >
         Contact

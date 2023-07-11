@@ -7,9 +7,13 @@ import NavBarOthers from "../components/shared/NavBarOthers";
 function Home() {
   return (
     <div className="flex flex-col gap-14">
-      <div className="bg-blue px-10 py-3">
-        <NavBarOthers />
-        <HomeHeader />
+      <div>
+        <div className="px-10 pt-3">
+          <NavBarOthers />
+        </div>
+        <div className="bg-blue px-10 py-4">
+          <HomeHeader />
+        </div>
       </div>
       <div className="px-10 py-3">
         <HomeUpperPart />

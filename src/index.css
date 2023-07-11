@@ -7,7 +7,7 @@
 }
 
 h2 {
-  @apply text-2xl font-bold italic;
+  @apply text-2xl font-bold;
 }
 
 h3 {
