@@ -1,6 +1,8 @@
 import { useState } from "react";
 import LeftSideCompanyNavBar from "../components/company/LeftSideCompanyNavBar";
 import NavBarOthers from "../components/shared/NavBarOthers";
+import SwitchCompany from "../components/company/SwitchCompany";
+import SwitchCompanyBottom from "../components/company/SwitchCompanyBottom";
 
 function Company() {
   const [isClicked, setIsClicked] = useState(1);
@@ -14,7 +16,9 @@ function Company() {
           isClicked={isClicked}
           setIsClicked={setIsClicked}
         />
+        <SwitchCompany isClicked={isClicked} />
       </div>
+      <SwitchCompanyBottom isClicked={isClicked} />
     </>
   );
 }
