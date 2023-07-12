@@ -11,6 +11,11 @@ function DeburringTop() {
         fixed by hand, tumbling, vibratory deburring and abrasive blasting or
         grinding.
       </p>
+      <img
+        src="\static\images\deburring.jpg"
+        alt="Laser Cutter"
+        className="imageShadow w-[40%] h-[50%] absolute bottom-0 right-16"
+      />
     </div>
   );
 }

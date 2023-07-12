@@ -7,7 +7,7 @@ type Props = {
 
 function LeftSideServiceNavBar({ isClicked, setIsClicked }: Props) {
   return (
-    <ul className="bg-blue flex flex-col justify-between gap-8 items-start px-10 py-10">
+    <ul className="bg-blue flex flex-col justify-between text-left gap-8 items-start px-10 py-10">
       <button
         onClick={() => setIsClicked(1)}
         className={clsx(isClicked === 1 ? "text-lightYellow" : "text-white")}

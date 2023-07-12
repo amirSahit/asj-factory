@@ -15,14 +15,6 @@ function WeldingTop() {
         are able to manufacture the most complex welding groups at the highest
         precision and quality in our workspaces.
       </p>
-      <p>The following are the types of welding services we can offer:</p>
-      <ul className="pl-4">
-        <li>• TIG Welding</li>
-        <li>• MIG Welding</li>
-        <li>• MAG Welding</li>
-        <li>• Point Welding</li>
-        <li>• Stud Welding</li>
-      </ul>
     </div>
   );
 }
