@@ -34,6 +34,13 @@ li {
   height: 60px;
 }
 
+.react-icons-mobile {
+  vertical-align: middle;
+  color: #ffffff;
+  width: 42px;
+  height: 30px;
+}
+
 .header-text {
   @apply flex flex-col gap-4;
 }
