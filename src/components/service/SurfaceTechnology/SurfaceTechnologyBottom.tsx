@@ -1,5 +1,3 @@
-import React from "react";
-
 function SurfaceTechnologyBottom() {
   return (
     <div className="flex flex-row gap-10 justify-around items-center px-10 py-5">
