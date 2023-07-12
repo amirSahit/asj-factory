@@ -1,4 +1,5 @@
 import ContactPage from "../components/contact/ContactPage";
+import Footer from "../components/shared/Footer";
 import NavBarOthers from "../components/shared/NavBarOthers";
 
 function Contact() {
@@ -10,6 +11,7 @@ function Contact() {
       <div className="px-10 py-5">
         <ContactPage />
       </div>
+      <Footer />
     </>
   );
 }

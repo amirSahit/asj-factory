@@ -2,6 +2,7 @@ import HomeGreenBar from "../components/home/HomeGreenBar";
 import HomeHeader from "../components/home/HomeHeader";
 import HomeLowerPart from "../components/home/HomeLowerPart";
 import HomeUpperPart from "../components/home/HomeUpperPart";
+import Footer from "../components/shared/Footer";
 import NavBarOthers from "../components/shared/NavBarOthers";
 
 function Home() {
@@ -22,6 +23,7 @@ function Home() {
       <div className="px-10 py-3">
         <HomeLowerPart />
       </div>
+      <Footer />
     </div>
   );
 }

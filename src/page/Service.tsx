@@ -3,6 +3,7 @@ import LeftSideServiceNavBar from "../components/service/LeftSideServiceNavBar";
 import NavBarOthers from "../components/shared/NavBarOthers";
 import SwitchServiceBottom from "../components/service/SwitchServiceBottom";
 import SwitchServiceTop from "../components/service/SwitchServiceTop";
+import Footer from "../components/shared/Footer";
 
 function Service() {
   const [isClicked, setIsClicked] = useState(1);
@@ -21,6 +22,7 @@ function Service() {
       <div>
         <SwitchServiceBottom isClicked={isClicked} />
       </div>
+      <Footer />
     </>
   );
 }
