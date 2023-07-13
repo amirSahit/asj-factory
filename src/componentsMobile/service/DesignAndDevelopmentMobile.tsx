@@ -1,4 +1,4 @@
-import ServiceIconsMobile from "../ServiceIconsMobile";
+import ServiceIconsMobile from "./ServiceIconsMobile";
 
 function DesignAndDevelopmentMobile() {
   return (
