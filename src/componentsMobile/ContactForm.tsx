@@ -1,9 +1,4 @@
-import emailjs from "emailjs-com";
-
 function ContactForm() {
-  //   emailjs.init("Uv-hpbxAXu9PvjTkP");
-
-  //   handleSubmit()
   return (
     <form className="flex flex-col p-5 gap-2">
       <label htmlFor="name">Name</label>

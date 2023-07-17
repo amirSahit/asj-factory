@@ -49,3 +49,9 @@ S li {
   background-image: url("public/static/images/image 3.jpg");
   background-repeat: none;
 }
+
+.contactBg {
+  background: center;
+  background-image: url("public/static/images/pexels-photo-416405.jpeg");
+  background-repeat: none;
+}
