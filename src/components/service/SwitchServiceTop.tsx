@@ -8,21 +8,21 @@ import SurfaceTechnologyTop from "./SurfaceTechnology/SurfaceTechnologyTop";
 import WeldingTop from "./Welding/WeldingTop";
 
 type Props = {
-  isClicked: number;
+  selected: number;
 };
 
-function SwitchServiceTop({ isClicked }: Props) {
+function SwitchServiceTop({ selected }: Props) {
   return (
-    <>
-      {isClicked === 1 && <DesignAndDevelopment />}
-      {isClicked === 2 && <CNCTurretPunchingTop />}
-      {isClicked === 3 && <LaserAndPlasmaCuttingTop />}
-      {isClicked === 4 && <DeburringTop />}
-      {isClicked === 5 && <FormingTop />}
-      {isClicked === 6 && <WeldingTop />}
-      {isClicked === 7 && <AssembliesAndMountingTop />}
-      {isClicked === 8 && <SurfaceTechnologyTop />}
-    </>
+    <div>
+      {selected === 0 && <DesignAndDevelopment />}
+      {selected === 1 && <CNCTurretPunchingTop />}
+      {selected === 2 && <LaserAndPlasmaCuttingTop />}
+      {selected === 3 && <DeburringTop />}
+      {selected === 4 && <FormingTop />}
+      {selected === 5 && <WeldingTop />}
+      {selected === 6 && <AssembliesAndMountingTop />}
+      {selected === 7 && <SurfaceTechnologyTop />}
+    </div>
   );
 }
 

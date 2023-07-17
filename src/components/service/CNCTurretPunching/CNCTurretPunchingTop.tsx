@@ -1,8 +1,8 @@
 function CNCTurretPunchingTop() {
   return (
     <div className="max-w-screen-md flex flex-col gap-4">
-      <div className="max-w-screen-md flex flex-col gap-2">
-        <h3>CNC Turret Punching</h3>
+      <div className="max-w-screen-md flex flex-col gap-2 text-xl">
+        <h3 className="text-center text-2xl">CNC Turret Punching</h3>
         <p>
           Punching , or die-cutting, is a sheet metal forming method, which is
           used if metal sheet or plate parts have to be made with recurring
@@ -21,15 +21,22 @@ function CNCTurretPunchingTop() {
           quality and cheaper production cost.
         </p>
       </div>
-      <ul>
-        <li className="font-bold">Max. Sheet Size : 50” x 140”</li>
-        <li className="font-bold">Max. Material Thickness: </li>
-        <ul className="font-bold">
-          <li className="font-bold pl-5">• Mild Steel: 0.325”</li>
-          <li className="font-bold pl-5">• Stainless Steel: 0.125”</li>
-          <li className="font-bold pl-5">• Aluminum: 0.325”</li>
+      <div className="flex flex-row justify-between items-start text-xl">
+        <ul>
+          <li className="font-bold">Max. Sheet Size : 50” x 140”</li>
+          <li className="font-bold">Max. Material Thickness: </li>
+          <ul className="pl-4">
+            <li>• Mild Steel: 0.325”</li>
+            <li>• Stainless Steel: 0.125”</li>
+            <li>• Aluminum: 0.325”</li>
+          </ul>
         </ul>
-      </ul>
+        <img
+          src="\static\images\PIC_010-1024x829.jpg"
+          alt="Laser Cutter"
+          className="h-[200px]"
+        />
+      </div>
     </div>
   );
 }

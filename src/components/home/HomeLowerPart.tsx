@@ -1,9 +1,11 @@
 function HomeLowerPart() {
   return (
-    <div className="flex flex-col gap-8">
-      <div className="header-text">
-        <h2>Your vision, our expertise.</h2>
-        <p>
+    <div className="mt-7">
+      <h3 className="bg-blue text-white text-center py-9 text-5xl">
+        YOUR VISION, OUR EXPERTISE
+      </h3>
+      <div className="py-8 px-10 flex flex-col justify-center items-center gap-9">
+        <p className="text-4xl text-center w-[1080px]">
           Our talented production team has many years of experience and are
           professionals in bending, milling, punching and all sheet metal
           production. ASJ transforms raw material into high precision parts.
@@ -11,18 +13,16 @@ function HomeLowerPart() {
           experienced employees and our excellent equipment make it possible tos
           meet your requirements - flexible, reliable, and solution-oriented.
         </p>
-      </div>
-      <div className="flex flex-row justify-around gap-14 items-center">
         <img
           src="\static\images\laser-cutter-cutting-metal.jpeg"
           alt="Laser cutter cutting metal"
-          className="imageShadow w-[40%] h-[40%]"
+          className=" "
         />
-        <h2 className="w-[30%] text-center">
+        <p className="text-4xl text-center font-bold text-blue w-[1080px]">
           We continually meet our goal of growth and customer satisfaction
           through effective employee management, customer involvement and
           continuous quality improvement.
-        </h2>
+        </p>
       </div>
     </div>
   );

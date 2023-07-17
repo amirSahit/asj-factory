@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .border-4-white {
   @apply border-4 border-white;
 }
@@ -13,12 +17,7 @@ h2 {
 h3 {
   @apply text-2xl font-bold;
 }
-
-p {
-  @apply text-xl;
-}
-
-li {
+S li {
   @apply text-xl;
 }
 
@@ -29,9 +28,9 @@ li {
 
 .react-icons {
   vertical-align: middle;
-  color: #f5ad3f;
-  width: 60px;
-  height: 60px;
+  color: white;
+  width: 160px;
+  height: 160px;
 }
 
 .react-icons-mobile {
@@ -43,4 +42,10 @@ li {
 
 .header-text {
   @apply flex flex-col gap-4;
+}
+
+.serviceBg {
+  background: center;
+  background-image: url("public/static/images/image 3.jpg");
+  background-repeat: none;
 }

@@ -1,93 +1,35 @@
 import clsx from "clsx";
-
+import { HiChevronRight } from "react-icons/hi";
+import { services } from "../../componentsMobile/service/ServicesButton";
 type Props = {
-  isClicked: number;
-  setIsClicked: React.Dispatch<React.SetStateAction<number>>;
+  selected: number;
+  setSelected: React.Dispatch<React.SetStateAction<number>>;
 };
 
-function LeftSideServiceNavBar({ isClicked, setIsClicked }: Props) {
+function LeftSideServiceNavBar({ selected, setSelected }: Props) {
   return (
-    <ul className="bg-blue flex flex-col justify-between text-left gap-8 items-start px-10 py-10">
-      <button
-        onClick={() => setIsClicked(1)}
-        className={clsx(
-          isClicked === 1
-            ? "text-lightYellow text-left"
-            : "text-white text-left"
-        )}
-      >
-        Design & Development
-      </button>
-      <button
-        onClick={() => setIsClicked(2)}
-        className={clsx(
-          isClicked === 2
-            ? "text-lightYellow text-left"
-            : "text-white text-left"
-        )}
-      >
-        CNC Turret Punching
-      </button>
-      <button
-        onClick={() => setIsClicked(3)}
-        className={clsx(
-          isClicked === 3
-            ? "text-lightYellow text-left"
-            : "text-white text-left"
-        )}
-      >
-        Laser & Plasma Cutting
-      </button>
-      <button
-        onClick={() => setIsClicked(4)}
-        className={clsx(
-          isClicked === 4
-            ? "text-lightYellow text-left"
-            : "text-white text-left"
-        )}
-      >
-        Deburring
-      </button>
-      <button
-        onClick={() => setIsClicked(5)}
-        className={clsx(
-          isClicked === 5
-            ? "text-lightYellow text-left"
-            : "text-white text-left"
-        )}
-      >
-        Forming
-      </button>
-      <button
-        onClick={() => setIsClicked(6)}
-        className={clsx(
-          isClicked === 6
-            ? "text-lightYellow text-left"
-            : "text-white text-left"
-        )}
-      >
-        Welding
-      </button>
-      <button
-        onClick={() => setIsClicked(7)}
-        className={clsx(
-          isClicked === 7
-            ? "text-lightYellow text-left"
-            : "text-white text-left"
-        )}
-      >
-        Assemblies / Mounting
-      </button>
-      <button
-        onClick={() => setIsClicked(8)}
-        className={clsx(
-          isClicked === 8
-            ? "text-lightYellow text-left"
-            : "text-white text-left"
-        )}
-      >
-        Surface Technology
-      </button>
+    <ul className="bg-footer flex flex-col justify-around text-left gap-2 items-start px-5 py-5 w-[440px]">
+      {services.map((service, idx) => (
+        <div
+          onClick={() => setSelected(idx)}
+          key={idx}
+          className="flex flex-row bg-blue px-2 py-4 justify-between text-white hover:text-lightYellow w-full text-xl"
+        >
+          <button
+            className={clsx(
+              selected === idx ? "text-lightYellow text-left" : ""
+            )}
+          >
+            {service}
+          </button>
+          <HiChevronRight
+            className={clsx(
+              "w-[25px] h-[25px]",
+              selected === idx ? "text-lightYellow" : ""
+            )}
+          />
+        </div>
+      ))}
     </ul>
   );
 }

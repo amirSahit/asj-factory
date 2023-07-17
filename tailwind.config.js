@@ -10,6 +10,7 @@ export default {
       lightYellow: "#F5AD3F",
       white: "#FFFFFF",
       black: "#000000",
+      footer: "#1E1E1E1F",
     },
   },
   plugins: [],

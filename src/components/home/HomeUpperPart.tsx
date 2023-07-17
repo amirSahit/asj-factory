@@ -1,32 +1,42 @@
 function HomeUpperPart() {
   return (
-    <div className="flex flex-row gap-16">
+    <div className="flex flex-col gap-16 mt-10">
+      <div className="border-y border-y-3 border-blue flex flex-col justify-between items-start py-8 px-4">
+        <h2 className="text-blue text-7xl font-normal">About Us</h2>
+      </div>
       <div className="flex flex-col gap-8">
-        <div className="header-text">
-          <h2>Who we are.</h2>
-          <p>
-            As an established company in sheet metal fabrication, ASJ
-            specialises in all major processes of high quality custom
-            manufacturing services. Our team is constantly working on innovative
-            products, and we guarantee high quality and punctual delivery.
+        <h2 className="text-6xl text-blue text-center">WHO WE ARE</h2>
+        <div className="flex flex-row justify-around px-16 gap-10">
+          <img
+            src="\static\images\laser-cutter-cutting-metal.jpeg"
+            alt="Laser cutter cutting metal"
+            className="w-[580px]"
+          />
+          <p className="text-4xl w-[580px]">
+            As an established company in
+            <strong> sheet metal fabrication</strong>, ASJ specialises in all
+            major processes of
+            <strong> high quality custom manufacturing services</strong>. Our
+            team is constantly working on innovative products, and we guarantee
+            high quality and punctual delivery.
           </p>
         </div>
-        <div className="header-text">
-          <h2>Your partner from start to finish.</h2>
-          <p>
-            ASJ is the ideal partner when it comes to CNC sheet metal
-            fabrication. We are customer-oriented, whether you need a small item
-            or a complex product to construct. We support you in all areas -
-            from the development, through the complete fabrication of your
-            product, including finishing, forming, drilling, tapping, welding
-            and custom assembly.
+        <h2 className="text-6xl text-blue text-center">
+          YOUR PARTNER FROM START TO FINISH
+        </h2>
+        <div className="flex flex-row justify-around px-16 gap-10">
+          <p className="text-4xl w-[580px]">
+            ASJ is the ideal partner when it comes to
+            <strong> CNC sheet metal fabrication</strong>. We are
+            customer-oriented, whether you need a small item or a complex
+            product to construct. We support you in all areas - from the
+            development, through the complete fabrication of your product,
+            including finishing, forming, drilling, tapping, welding and custom
+            assembly.
           </p>
+          <img src="/static/images/Forming2.jpg" className="w-[580px]" />
         </div>
       </div>
-      <img
-        src="/static/images/image-home.jpg"
-        className="w-[40%] h-[40%] imageShadow"
-      />
     </div>
   );
 }
