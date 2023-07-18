@@ -29,12 +29,12 @@ function ServicesButton({ choice, setChoice }: Props) {
             className={clsx(
               idx !== choice
                 ? "hidden"
-                : "text-white text-left px-4 py-10 text-2xl w-full"
+                : "text-white text-left px-4 py-5 w-full"
             )}
             onClick={() => setOpen(!open)}
             key={idx}
           >
-            {idx === choice && <h2>{service}</h2>}
+            {idx === choice && <h2 className="text-3xl">{service}</h2>}
           </button>
         ))}
         <button onClick={() => setOpen(!open)}>

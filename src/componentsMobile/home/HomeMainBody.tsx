@@ -23,13 +23,16 @@ function HomeMainBody() {
         )}
         {change === 1 && (
           <img
-            src="public\static\images\laser-2795233_1920.jpg"
+            src="\static\images\laser-2795233_1920.jpg"
             alt="Laser cutter cutting metal"
             className="p-1 bg-white"
           />
         )}
         {change === 2 && (
-          <img src="/static/images/Forming2.jpg" className="p-1 bg-white" />
+          <img
+            src="\static\images\pexels-photo-530024.jpeg"
+            className="p-1 bg-white"
+          />
         )}
       </div>
       <div className="text-white flex flex-row justify-between text-center">

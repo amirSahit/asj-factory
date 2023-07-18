@@ -1,6 +1,6 @@
 function WeldingMobile() {
   return (
-    <body className="flex flex-col gap-2">
+    <body className="flex flex-col gap-2 mb-10">
       <p>
         Welding is a process in fabrication that conjoins materials, usually
         metals, via coalescence. It mildly melts the parts that are being welded
@@ -22,6 +22,10 @@ function WeldingMobile() {
         <li>• Point Welding</li>
         <li>• Stud Welding</li>
       </ul>
+      <img
+        src="public\static\images\schweissen2-400x284.jpg"
+        className="p-1 bg-white"
+      />
     </body>
   );
 }

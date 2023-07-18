@@ -1,8 +1,6 @@
-import ServiceIconsMobile from "./ServiceIconsMobile";
-
 function DesignAndDevelopmentMobile() {
   return (
-    <body className="flex flex-col gap-4">
+    <body className="flex flex-col gap-4 mb-10">
       <p>
         During personal meetings with our customers, our experienced designers
         find the ideal solutions for implementing sheet metal designs. We work
@@ -24,7 +22,7 @@ function DesignAndDevelopmentMobile() {
         manufacturing. After customer approval, the first prototypes are
         produced, which then forms the basis for later manufacturing.
       </p>
-      <ServiceIconsMobile />
+      <img src="\static\images\PIC_004-1.jpg" className="p-1 bg-white" />
     </body>
   );
 }
