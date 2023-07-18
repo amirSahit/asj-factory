@@ -1,14 +1,14 @@
 function Footer() {
   return (
-    <div className="bg-footer text-black px-10 py-5 mt-10 border-y border-y-2 border-slate-600">
+    <div className="bg-footer text-black px-10 py-5 mt-10 border-y-2 border-slate-600">
       <div className="flex flex-row justify-between">
         <div className="flex flex-col gap-5">
-          <h3 className="text-4xl font-bold">ASJ Sheet Metal Fabrication</h3>
-          <div className="text-3xl">
+          <h3 className="text-2xl font-bold">ASJ Sheet Metal Fabrication</h3>
+          <div className="text-xl">
             <p>752 Nothport Drive, Suite A</p>
             <p>West Sacramento, CA 95691</p>
           </div>
-          <div className="text-3xl">
+          <div className="text-xl">
             <p>asj.sheetmetalfab@gmail.com</p>
             <p>(916) 841-5089</p>
           </div>
@@ -20,7 +20,7 @@ function Footer() {
           alt="ASJ LOGO"
         />
       </div>
-      <p className="text-3xl font-bold text-center mt-5">
+      <p className="text-md font-bold text-center mt-5">
         Copyright © 2023 ASJ Sheet Metal Fabrication - All Rights Reserved.
       </p>
     </div>

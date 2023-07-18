@@ -22,7 +22,7 @@ function FormingTop() {
             </li>
             <li>• CNC-monitored bending and forming process</li>
             <li>• Single parts and small quantities at fair prices too</li>
-            <li>• We also take over the further processing steps if desired</li>
+            <li>• Further processing steps if desired</li>
           </ul>
         </div>
         <img

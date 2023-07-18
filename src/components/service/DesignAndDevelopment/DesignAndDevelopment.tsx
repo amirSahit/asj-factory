@@ -28,7 +28,7 @@ function DesignAndDevelopment() {
             <li>• Mechanical assembly</li>
             <li>• Precision parts</li>
           </ul>
-          <p className="text-green">
+          <p className="text-green font-bold">
             Every product begins with the idea, followed by the search for the
             best solution. Our design department, with the experience of diverse
             applications, is at your disposal. We will make your idea a reality.

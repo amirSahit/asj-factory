@@ -1,18 +1,18 @@
 function HomeUpperPart() {
   return (
-    <div className="flex flex-col gap-16 mt-10">
+    <div className="flex flex-col gap-16 mt-10 text-2xl">
       <div className="border-y border-y-3 border-blue flex flex-col justify-between items-start py-8 px-4">
         <h2 className="text-blue text-7xl font-normal">About Us</h2>
       </div>
       <div className="flex flex-col gap-8">
-        <h2 className="text-6xl text-blue text-center">WHO WE ARE</h2>
+        <h2 className="text-4xl text-blue text-center">WHO WE ARE</h2>
         <div className="flex flex-row justify-around px-16 gap-10">
           <img
             src="\static\images\laser-cutter-cutting-metal.jpeg"
             alt="Laser cutter cutting metal"
             className="w-[580px]"
           />
-          <p className="text-4xl w-[580px]">
+          <p className="w-[580px]">
             As an established company in
             <strong> sheet metal fabrication</strong>, ASJ specialises in all
             major processes of
@@ -21,11 +21,11 @@ function HomeUpperPart() {
             high quality and punctual delivery.
           </p>
         </div>
-        <h2 className="text-6xl text-blue text-center">
+        <h2 className="text-4xl text-blue text-center">
           YOUR PARTNER FROM START TO FINISH
         </h2>
         <div className="flex flex-row justify-around px-16 gap-10">
-          <p className="text-4xl w-[580px]">
+          <p className="w-[580px]">
             ASJ is the ideal partner when it comes to
             <strong> CNC sheet metal fabrication</strong>. We are
             customer-oriented, whether you need a small item or a complex
