@@ -23,7 +23,7 @@ function FormingMobile() {
       <p>
         We offer free support because we care about your site as much as you.
       </p>
-      <img src="/static/images/Forming2.jpg" className="p-1 bg-white" />
+      <img src="static/images/Forming2.jpg" className="p-1 bg-white" />
     </body>
   );
 }

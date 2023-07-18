@@ -31,7 +31,7 @@ function CompanyComponentsMobile() {
           />
         </div>
         <div className="flex flex-col justify-around">
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 justify-center items-center">
             <h2>Our Philosophy</h2>
             <ul className="flex flex-col gap-2">
               <li>
@@ -57,7 +57,7 @@ function CompanyComponentsMobile() {
                 • <strong>Measurement records.</strong>
               </li>
             </ul>
-            <p className="p-10 bg-green text-white text-bold text-2xl flex flex-col justify-center items-center text-center w-[400px]">
+            <p className="p-10 bg-green border-2 border-white text-white text-bold text-2xl flex flex-col justify-center items-center text-center w-[400px]">
               We work according to the ISO 9001 quality management system.
             </p>
           </div>
