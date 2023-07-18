@@ -43,17 +43,3 @@ S li {
 .header-text {
   @apply flex flex-col gap-4;
 }
-
-.serviceBg {
-  background: center;
-  background-image: url("static/images/image 3.jpg");
-  background-repeat: none;
-  opacity: 50%;
-}
-
-.contactBg {
-  background: center;
-  background-image: url("static/images/pexels-photo-416405.jpeg");
-  background-repeat: none;
-  opacity: 50%;
-}
