@@ -14,13 +14,13 @@ function ContactComponentsMobile() {
         <h2 className="text-white text-bold text-3xl text-center">
           Contact Us
         </h2>
-        <div className="flex flex-row justify-start gap-10 items-center">
-          <HiOutlineMail className="w-[60px] h-[60px]" />
+        <div className="flex flex-row justify-start gap-2 items-center">
+          <HiOutlineMail className="min-w-[60px] h-[60px]" />
           <p className="text-xl">asj.sheetmetalfab@gmail.com</p>
         </div>
         <a
           href="tel:(916) 841-5089"
-          className="flex flex-row justify-start gap-10 items-center"
+          className="flex flex-row justify-start gap-2 items-center"
         >
           <HiPhoneOutgoing className="w-[60px] h-[60px]" />
           <p className="text-xl">(916) 841-5089</p>
