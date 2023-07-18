@@ -11,7 +11,7 @@ function SurfaceTechnologyTop() {
           of the metal sheets.
         </p>{" "}
         <img
-          src="\static\images\surfacingTechnology.jpg"
+          src="static/images/surfacingTechnology.jpg"
           alt="Tool laying on paper"
           className="w-[250px]"
         />

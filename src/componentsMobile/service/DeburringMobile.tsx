@@ -11,7 +11,7 @@ function DeburringMobile() {
         grinding.
       </p>
       <img
-        src="\static\images\grinder-1412222_1920.jpg"
+        src="static/images/grinder-1412222_1920.jpg"
         className="p-1 bg-white"
       />
     </body>

@@ -25,7 +25,7 @@ function NavBarMobile() {
   return (
     <header className="flex flex-row justify-between items-center p-2">
       <img
-        src="/static/images/Logo_ASJ_2018.jpg"
+        src="static/images/Logo_ASJ_2018.jpg"
         className="w-[40%]"
         alt="ASJ LOGO"
       />

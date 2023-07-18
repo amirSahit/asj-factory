@@ -14,7 +14,7 @@ function HomeLowerPart() {
           meet your requirements - flexible, reliable, and solution-oriented.
         </p>
         <img
-          src="public\static\images\laser-2795233_1920.jpg"
+          src="static/images/laser-2795233_1920.jpg"
           alt="Laser cutter cutting metal"
           className="w-[800px]"
         />

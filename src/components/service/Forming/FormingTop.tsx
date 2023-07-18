@@ -26,7 +26,7 @@ function FormingTop() {
           </ul>
         </div>
         <img
-          src="\static\images\Forming2.jpg"
+          src="static/images/Forming2.jpg"
           alt="Laser Cutter"
           className="w-[370px]"
         />

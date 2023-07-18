@@ -15,7 +15,7 @@ function DeburringTop() {
         </strong>
       </p>
       <img
-        src="\static\images\deburring.jpg"
+        src="static/images/deburring.jpg"
         alt="Laser Cutter"
         className="w-[400px] h-[300px]"
       />

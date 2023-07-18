@@ -14,7 +14,7 @@ function Footer() {
           </div>
         </div>
         <img
-          src="/static/images/Logo_ASJ_2018.jpg"
+          src="static/images/Logo_ASJ_2018.jpg"
           width={300}
           height={110}
           alt="ASJ LOGO"

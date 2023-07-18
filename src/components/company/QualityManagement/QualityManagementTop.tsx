@@ -20,10 +20,7 @@ function QualityManagementTop() {
             Our goal is not only to meet expectations, but to exceed them.
           </strong>
         </div>
-        <img
-          src="public\static\images\laser-2795233_1920.jpg"
-          className="w-[400px]"
-        />
+        <img src="static/images/laser-2795233_1920.jpg" className="w-[400px]" />
       </div>
       <div className="flex flex-row justify-around">
         <p className="p-10 bg-green text-white text-bold text-2xl flex flex-col justify-center items-center text-center w-[400px]">

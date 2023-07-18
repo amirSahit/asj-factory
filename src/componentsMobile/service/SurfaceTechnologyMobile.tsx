@@ -30,7 +30,7 @@ function SurfaceTechnologyMobile() {
         <li>• Anodizing, by partnering with other local companies</li>
       </ul>
       <img
-        src="public\static\images\oberflache-feinschliff.jpg"
+        src="static/images/oberflache-feinschliff.jpg"
         className="p-1 bg-white"
       />
     </body>

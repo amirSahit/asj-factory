@@ -17,7 +17,7 @@ function LaserAndPlasmaCuttingTop() {
           <li>• Brass</li>
         </ul>
         <img
-          src="\static\images\Laser_Cutting.jpg"
+          src="static/images/Laser_Cutting.jpg"
           alt="Laser Cutter"
           className="h-[300px] w-[400px]"
         />

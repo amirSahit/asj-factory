@@ -16,21 +16,21 @@ function HomeMainBody() {
       <div className="p-3">
         {change === 0 && (
           <img
-            src="/static/images/image-home.jpg"
+            src="static/images/image-home.jpg"
             alt="Bridge in Dessau/Germany"
             className="p-1 bg-white"
           />
         )}
         {change === 1 && (
           <img
-            src="\static\images\laser-2795233_1920.jpg"
+            src="static\images\laser-2795233_1920.jpg"
             alt="Laser cutter cutting metal"
             className="p-1 bg-white"
           />
         )}
         {change === 2 && (
           <img
-            src="\static\images\pexels-photo-530024.jpeg"
+            src="static\images\pexels-photo-530024.jpeg"
             className="p-1 bg-white"
           />
         )}
@@ -75,9 +75,9 @@ function HomeMainBody() {
           ASJ is the ideal partner when it comes to CNC sheet metal fabrication.
           We are customer-oriented, whether you need a small item or a complex
           product to construct. We support you in all areas - from the
-          development, through the complete fabrication of your
-          product, including finishing, forming, drilling, tapping, welding and
-          custom assembly.
+          development, through the complete fabrication of your product,
+          including finishing, forming, drilling, tapping, welding and custom
+          assembly.
         </p>
       )}
     </>

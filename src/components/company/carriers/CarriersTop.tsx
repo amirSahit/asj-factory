@@ -11,7 +11,7 @@ function CarriersTop() {
         for our success.
       </p>
       <img
-        src="public\static\images\pexels-photo-416405.jpeg"
+        src="static/images/pexels-photo-416405.jpeg"
         alt="Laser Cutter"
         className="imageShadow w-[40%] h-[50%] absolute bottom-0 right-16"
       />

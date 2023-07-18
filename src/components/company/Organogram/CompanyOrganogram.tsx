@@ -6,7 +6,7 @@ function CompanyOrganogram() {
       </h2>
       <div className="relative">
         <img
-          src="\static\images\companyOrganogram.jpg"
+          src="static/images/companyOrganogram.jpg"
           alt="Company Organogram"
         />
         <p className="absolute bottom-44 left-0 bg-blue p-4 w-[250px] text-white text-center text-xl">

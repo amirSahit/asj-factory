@@ -32,7 +32,7 @@ function AssembliesAndMountingMobile() {
         <li>• Stainless Steel</li>
         <li>• Galvanneal & Galvanized CRS</li>
       </ul>
-      <img src="public\static\images\assembly05.jpg" className="p-1 bg-white" />
+      <img src="/static/images/assembly05.jpg" className="p-1 bg-white" />
     </body>
   );
 }

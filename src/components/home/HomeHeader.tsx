@@ -10,7 +10,7 @@ function HomeHeader() {
         Get in Touch
       </Link>
       <img
-        src="/static/images/image-home.jpg"
+        src="static/images/image-home.jpg"
         alt="Bridge in Dessau/Germany"
         className="absolute opacity-50 h-[500px] min-w-[1440px]"
       />

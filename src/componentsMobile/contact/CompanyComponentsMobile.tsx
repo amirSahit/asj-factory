@@ -26,7 +26,7 @@ function CompanyComponentsMobile() {
             </strong>
           </div>
           <img
-            src="public\static\images\laser-2795233_1920.jpg"
+            src="static/images/laser-2795233_1920.jpg"
             className="p-1 bg-white"
           />
         </div>

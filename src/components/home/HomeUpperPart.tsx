@@ -8,7 +8,7 @@ function HomeUpperPart() {
         <h2 className="text-4xl text-blue text-center">WHO WE ARE</h2>
         <div className="flex flex-row justify-around px-16 gap-10">
           <img
-            src="\static\images\laser-cutter-cutting-metal.jpeg"
+            src="static/images/laser-cutter-cutting-metal.jpeg"
             alt="Laser cutter cutting metal"
             className="w-[580px]"
           />
@@ -34,7 +34,7 @@ function HomeUpperPart() {
             including finishing, forming, drilling, tapping, welding and custom
             assembly.
           </p>
-          <img src="/static/images/Forming2.jpg" className="w-[580px]" />
+          <img src="static/images/Forming2.jpg" className="w-[580px]" />
         </div>
       </div>
     </div>

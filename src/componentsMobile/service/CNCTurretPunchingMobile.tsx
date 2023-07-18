@@ -27,7 +27,7 @@ function CNCTurretPunchingMobile() {
         offer punching as an alternative to laser cutting due to its accuracy,
         quality and cheaper production cost.
       </p>
-      <img src="static\images\PIC_010-1024x829.jpg" className="p-1 bg-white" />
+      <img src="static/images/PIC_010-1024x829.jpg" className="p-1 bg-white" />
     </body>
   );
 }

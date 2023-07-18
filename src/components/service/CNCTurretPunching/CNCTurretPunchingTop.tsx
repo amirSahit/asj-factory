@@ -32,7 +32,7 @@ function CNCTurretPunchingTop() {
           </ul>
         </ul>
         <img
-          src="\static\images\PIC_010-1024x829.jpg"
+          src="/static/images/PIC_010-1024x829.jpg"
           alt="Laser Cutter"
           className="h-[200px]"
         />

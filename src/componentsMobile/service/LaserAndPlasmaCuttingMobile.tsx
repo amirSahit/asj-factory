@@ -16,7 +16,7 @@ function LaserAndPlasmaCuttingMobile() {
       </ul>
       <p>We offer the most competitive prices for our custom laser cutting.</p>
       <img
-        src="\static\images\Laser_Cutting.jpg"
+        src="static/images/Laser_Cutting.jpg"
         alt="Laser Cutter"
         className="p-1 bg-white"
       />

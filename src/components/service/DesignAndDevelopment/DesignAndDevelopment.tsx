@@ -34,7 +34,7 @@ function DesignAndDevelopment() {
             applications, is at your disposal. We will make your idea a reality.
           </p>
         </div>
-        <img src="\static\images\PIC_008-577x1024.jpg" className="h-[280px]" />
+        <img src="static/images/PIC_008-577x1024.jpg" className="h-[280px]" />
       </div>
     </div>
   );

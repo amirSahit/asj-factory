@@ -23,7 +23,7 @@ function WeldingMobile() {
         <li>• Stud Welding</li>
       </ul>
       <img
-        src="public\static\images\schweissen2-400x284.jpg"
+        src="static/images/schweissen2-400x284.jpg"
         className="p-1 bg-white"
       />
     </body>

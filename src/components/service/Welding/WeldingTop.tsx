@@ -28,7 +28,7 @@ function WeldingTop() {
           </ul>
         </div>
         <img
-          src="\static\images\welding2.jpg"
+          src="static/images/welding2.jpg"
           alt="Man wedling metal"
           className="h-[250px]"
         />
