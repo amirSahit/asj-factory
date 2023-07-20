@@ -1,6 +1,6 @@
 function DesignAndDevelopmentMobile() {
   return (
-    <body className="flex flex-col gap-4 mb-10">
+    <article className="flex flex-col gap-4 mb-10">
       <p>
         During personal meetings with our customers, our experienced designers
         find the ideal solutions for implementing sheet metal designs. We work
@@ -23,7 +23,7 @@ function DesignAndDevelopmentMobile() {
         produced, which then forms the basis for later manufacturing.
       </p>
       <img src="static/images/PIC_004-1.jpg" className="p-1 bg-white" />
-    </body>
+    </article>
   );
 }
 

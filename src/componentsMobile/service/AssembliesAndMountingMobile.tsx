@@ -1,6 +1,6 @@
 function AssembliesAndMountingMobile() {
   return (
-    <body className="flex flex-col gap-2 mb-10">
+    <article className="flex flex-col gap-2 mb-10">
       <p>
         Looking to add cable assemblies or wire harnesses to your prototype
         assembly?
@@ -33,7 +33,7 @@ function AssembliesAndMountingMobile() {
         <li>• Galvanneal & Galvanized CRS</li>
       </ul>
       <img src="/static/images/assembly05.jpg" className="p-1 bg-white" />
-    </body>
+    </article>
   );
 }
 

@@ -1,6 +1,6 @@
 function LaserAndPlasmaCuttingMobile() {
   return (
-    <body className="flex flex-col gap-2 mb-10">
+    <article className="flex flex-col gap-2 mb-10">
       <p>
         We offer custom laser cutting services, including stainless steel laser
         cutting. We partner with other local companies and thus can offer laser
@@ -20,7 +20,7 @@ function LaserAndPlasmaCuttingMobile() {
         alt="Laser Cutter"
         className="p-1 bg-white"
       />
-    </body>
+    </article>
   );
 }
 

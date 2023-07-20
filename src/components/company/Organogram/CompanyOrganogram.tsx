@@ -15,7 +15,7 @@ function CompanyOrganogram() {
           exceptional service delivery.
         </figcaption>
       </figure>
-      <div className="flex flex-col gap-3 w-[800px]">
+      <section className="flex flex-col gap-3 w-[800px]">
         <p>
           <strong>Quality management</strong> focuses on implementing proccesses
           and standards to consistently deliver products that meet or exceed
@@ -36,7 +36,7 @@ function CompanyOrganogram() {
           management of various tasks, resources, and personnell to ensure
           effective organizational functioning.
         </p>
-      </div>
+      </section>
     </article>
   );
 }

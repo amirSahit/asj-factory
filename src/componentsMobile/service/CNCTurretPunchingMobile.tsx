@@ -1,6 +1,6 @@
 function CNCTurretPunchingMobile() {
   return (
-    <body className="flex flex-col gap-2 mb-10">
+    <article className="flex flex-col gap-2 mb-10">
       <p>
         Punching, or die-cutting, is a sheet metal forming method, which is used
         if metal sheet or plate parts have to be made with recurring recesses,
@@ -28,7 +28,7 @@ function CNCTurretPunchingMobile() {
         quality and cheaper production cost.
       </p>
       <img src="static/images/PIC_010-1024x829.jpg" className="p-1 bg-white" />
-    </body>
+    </article>
   );
 }
 

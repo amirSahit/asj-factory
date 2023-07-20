@@ -22,8 +22,8 @@ type Props = {
 function ServicesButton({ choice, setChoice }: Props) {
   const [open, setOpen] = useState(false);
   return (
-    <div>
-      <div className="flex flex-row justify-between">
+    <aside>
+      <nav className="flex flex-row justify-between">
         {services.map((service, idx) => (
           <button
             className={clsx(
@@ -40,7 +40,7 @@ function ServicesButton({ choice, setChoice }: Props) {
         <button onClick={() => setOpen(!open)}>
           <Icons icon={<IoChevronForward className="react-icons-mobile" />} />
         </button>
-      </div>
+      </nav>
       {open && (
         <ul className="bg-white absolute top-28 right-0 pr-10 pl-5 py-4 flex flex-col gap-4 items-start">
           {services.map((service, idx) => (
@@ -55,7 +55,7 @@ function ServicesButton({ choice, setChoice }: Props) {
           ))}
         </ul>
       )}
-    </div>
+    </aside>
   );
 }
 

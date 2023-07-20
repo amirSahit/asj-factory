@@ -1,6 +1,6 @@
 function FormingMobile() {
   return (
-    <body className="flex flex-col gap-2 mb-10">
+    <article className="flex flex-col gap-2 mb-10">
       <p>
         After cutting is often the forming of the parts as needed. Forming can
         be used in metalworking to bend, roll, and shape pieces to reach their
@@ -24,7 +24,7 @@ function FormingMobile() {
         We offer free support because we care about your site as much as you.
       </p>
       <img src="static/images/Forming2.jpg" className="p-1 bg-white" />
-    </body>
+    </article>
   );
 }
 

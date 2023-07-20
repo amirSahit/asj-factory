@@ -1,6 +1,6 @@
 function SurfaceTechnologyMobile() {
   return (
-    <body className="flex flex-col gap-2 mb-10">
+    <article className="flex flex-col gap-2 mb-10">
       <p>
         Surface technology in the context of metal sheet fabrication refers to
         the various processes and techniques used to modify and enhance the
@@ -33,7 +33,7 @@ function SurfaceTechnologyMobile() {
         src="static/images/oberflache-feinschliff.jpg"
         className="p-1 bg-white"
       />
-    </body>
+    </article>
   );
 }
 

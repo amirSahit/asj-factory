@@ -1,6 +1,6 @@
 function CarriersTop() {
   return (
-    <div className="max-w-screen-md flex flex-col gap-4">
+    <article className="max-w-screen-md flex flex-col gap-4">
       <h3>Your career with ASJ</h3>
       <p>
         The greatest capital our company has is our employees. Even the largest
@@ -15,7 +15,7 @@ function CarriersTop() {
         alt="Laser Cutter"
         className="imageShadow w-[40%] h-[50%] absolute bottom-0 right-16"
       />
-    </div>
+    </article>
   );
 }
 

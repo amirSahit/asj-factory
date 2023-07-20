@@ -13,7 +13,7 @@ type Props = {
 
 function ServiceInfos({ choice }: Props) {
   return (
-    <body className="text-justify text-white px-4">
+    <main className="text-justify text-white px-4">
       {choice === 0 && <DesignAndDevelopmentMobile />}
       {choice === 1 && <CNCTurretPunchingMobile />}
       {choice === 2 && <LaserAndPlasmaCuttingMobile />}
@@ -22,7 +22,7 @@ function ServiceInfos({ choice }: Props) {
       {choice === 5 && <WeldingMobile />}
       {choice === 6 && <AssembliesAndMountingMobile />}
       {choice === 7 && <SurfaceTechnologyMobile />}
-    </body>
+    </main>
   );
 }
 

@@ -3,13 +3,13 @@ import NavBarMobile from "../shared/NavBarMobile";
 
 function CompanyComponentsMobile() {
   return (
-    <div className="bg-blue flex flex-col text-white">
+    <section className="bg-blue flex flex-col text-white">
       <NavBarMobile />
-      <body className="flex flex-col gap-2 mb-10 px-4 mt-4">
+      <article className="flex flex-col gap-2 mb-10 px-4 mt-4">
         <h2 className="text-white text-bold text-3xl text-center">
           Quality Management
         </h2>
-        <div className="flex flex-col justify-around gap-2">
+        <section className="flex flex-col justify-around gap-2">
           <div className="flex flex-col gap-2 text-center">
             <h3>Quality Assurance</h3>
             <p className="text-justify">
@@ -29,8 +29,8 @@ function CompanyComponentsMobile() {
             src="static/images/laser-2795233_1920.jpg"
             className="p-1 bg-white"
           />
-        </div>
-        <div className="flex flex-col justify-around">
+        </section>
+        <section className="flex flex-col justify-around">
           <div className="flex flex-col gap-2 justify-center items-center">
             <h2>Our Philosophy</h2>
             <ul className="flex flex-col gap-2">
@@ -61,10 +61,10 @@ function CompanyComponentsMobile() {
               We work according to the ISO 9001 quality management system.
             </p>
           </div>
-        </div>
-      </body>
+        </section>
+      </article>
       <FooterMobile />
-    </div>
+    </section>
   );
 }
 
