@@ -55,7 +55,7 @@ function HomeMainBody() {
           As an established company in sheet metal fabrication, ASJ specialises
           in all major processes of high quality custom manufacturing services.
           Our team is constantly working on innovative products, and we
-          guarantee high quality and punctual delivery. Powerful.
+          guarantee high quality and punctual delivery.
         </p>
       )}
       {change === 1 && (
