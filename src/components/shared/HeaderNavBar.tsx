@@ -5,7 +5,7 @@ function HeaderNavBar() {
   const location = useLocation();
 
   return (
-    <div className="flex flex-row items-center justify-between text-2xl">
+    <header className="flex flex-row items-center justify-between text-2xl">
       <img
         src="static/images/Logo_ASJ_2018.jpg"
         width={300}
@@ -50,7 +50,7 @@ function HeaderNavBar() {
           Contact
         </Link>
       </nav>
-    </div>
+    </header>
   );
 }
 

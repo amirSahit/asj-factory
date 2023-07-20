@@ -5,12 +5,14 @@ type Icons = {
 
 function Icons({ icon, description }: Icons) {
   return (
-    <div className="flex flex-col gap-1 items-center">
+    <figure className="flex flex-col gap-1 items-center">
       {icon}
       {description && (
-        <p className="text-white text-center text-xl">{description}</p>
+        <figcaption className="text-white text-center text-xl">
+          {description}
+        </figcaption>
       )}
-    </div>
+    </figure>
   );
 }
 

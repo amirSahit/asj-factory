@@ -3,7 +3,7 @@ import Icons from "./Icons";
 
 function HomeGreenBar() {
   return (
-    <div className="bg-blue flex flex-row justify-around px-4 py-4">
+    <section className="bg-blue flex flex-row justify-around px-4 py-4">
       <Icons
         icon={<IoThumbsUp className="react-icons" />}
         description={"High quality finished products"}
@@ -20,7 +20,7 @@ function HomeGreenBar() {
         icon={<IoHome className="react-icons" />}
         description={"All from one source"}
       />
-    </div>
+    </section>
   );
 }
 

@@ -12,8 +12,8 @@ function HomeMainBody() {
   }
 
   return (
-    <>
-      <div className="p-3">
+    <main>
+      <figure className="p-3">
         {change === 0 && (
           <img
             src="static/images/image-home.jpg"
@@ -34,8 +34,8 @@ function HomeMainBody() {
             className="p-1 bg-white"
           />
         )}
-      </div>
-      <div className="text-white flex flex-row justify-between text-center">
+      </figure>
+      <nav className="text-white flex flex-row justify-between text-center">
         <button onClick={() => setChange(change - 1)}>
           <Icons icon={<IoChevronBack className="react-icons-mobile" />} />
         </button>
@@ -49,16 +49,14 @@ function HomeMainBody() {
         <button onClick={() => setChange(change + 1)}>
           <Icons icon={<IoChevronForward className="react-icons-mobile" />} />
         </button>
-      </div>
+      </nav>
       {change === 0 && (
-        <div className="p-5 flex flex-col gap-2">
-          <p className="text-justify text-white text-xl">
-            As an established company in sheet metal fabrication, ASJ
-            specialises in all major processes of high quality custom
-            manufacturing services. Our team is constantly working on innovative
-            products, and we guarantee high quality and punctual delivery.
-          </p>
-        </div>
+        <p className="text-justify text-white p-5 text-xl">
+          As an established company in sheet metal fabrication, ASJ specialises
+          in all major processes of high quality custom manufacturing services.
+          Our team is constantly working on innovative products, and we
+          guarantee high quality and punctual delivery.
+        </p>
       )}
       {change === 1 && (
         <p className="text-justify text-white p-5 text-xl">
@@ -80,7 +78,7 @@ function HomeMainBody() {
           assembly.
         </p>
       )}
-    </>
+    </main>
   );
 }
 

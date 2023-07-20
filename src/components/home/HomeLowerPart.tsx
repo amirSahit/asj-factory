@@ -1,10 +1,10 @@
 function HomeLowerPart() {
   return (
-    <div className="mt-7 text-2xl">
+    <article className="mt-7 text-2xl">
       <h3 className="bg-blue text-white text-center py-9 text-5xl">
         YOUR VISION, OUR EXPERTISE
       </h3>
-      <div className="py-8 px-10 flex flex-col justify-center items-center gap-9">
+      <section className="py-8 px-10 flex flex-col justify-center items-center gap-9">
         <p className="text-center w-[1080px]">
           Our talented production team has many years of experience and are
           professionals in bending, milling, punching and all sheet metal
@@ -23,8 +23,8 @@ function HomeLowerPart() {
           through effective employee management, customer involvement and
           continuous quality improvement.
         </p>
-      </div>
-    </div>
+      </section>
+    </article>
   );
 }
 

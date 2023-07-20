@@ -1,12 +1,12 @@
 function HomeUpperPart() {
   return (
-    <div className="flex flex-col gap-16 mt-10 text-2xl">
+    <article className="flex flex-col gap-16 mt-10 text-2xl">
       <div className="border-y border-y-3 border-blue flex flex-col justify-between items-start py-8 px-4">
         <h2 className="text-blue text-7xl font-normal">About Us</h2>
       </div>
-      <div className="flex flex-col gap-8">
+      <article className="flex flex-col gap-8">
         <h2 className="text-4xl text-blue text-center">WHO WE ARE</h2>
-        <div className="flex flex-row justify-around px-16 gap-10">
+        <section className="flex flex-row justify-around px-16 gap-10">
           <img
             src="static/images/laser-cutter-cutting-metal.jpeg"
             alt="Laser cutter cutting metal"
@@ -20,11 +20,11 @@ function HomeUpperPart() {
             team is constantly working on innovative products, and we guarantee
             high quality and punctual delivery.
           </p>
-        </div>
+        </section>
         <h2 className="text-4xl text-blue text-center">
           YOUR PARTNER FROM START TO FINISH
         </h2>
-        <div className="flex flex-row justify-around px-16 gap-10">
+        <details className="flex flex-row justify-around px-16 gap-10">
           <p className="w-[580px]">
             ASJ is the ideal partner when it comes to
             <strong> CNC sheet metal fabrication</strong>. We are
@@ -35,9 +35,9 @@ function HomeUpperPart() {
             assembly.
           </p>
           <img src="static/images/Forming2.jpg" className="w-[580px]" />
-        </div>
-      </div>
-    </div>
+        </details>
+      </article>
+    </article>
   );
 }
 

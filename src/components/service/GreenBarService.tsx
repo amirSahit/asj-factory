@@ -3,7 +3,7 @@ import { IoDesktop, IoSync, IoTrendingUp, IoGitNetwork } from "react-icons/io5";
 
 function GreenBarService() {
   return (
-    <div className="bg-green flex flex-row justify-around px-4 py-4 mt-10">
+    <section className="bg-green flex flex-row justify-around px-4 py-4 mt-10">
       <Icons
         icon={<IoSync className="react-icons" />}
         description={"The Experience of a Qualified Team"}
@@ -20,7 +20,7 @@ function GreenBarService() {
         icon={<IoGitNetwork className="react-icons" />}
         description={"Data exchange in all systems"}
       />
-    </div>
+    </section>
   );
 }
 

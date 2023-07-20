@@ -1,7 +1,7 @@
 function DesignAndDevelopment() {
   return (
-    <div className="max-w-screen-md flex flex-col gap-5 text-xl">
-      <div className="flex flex-col gap-2">
+    <article className="max-w-screen-md flex flex-col gap-5 text-xl">
+      <section className="flex flex-col gap-2">
         <h3 className="text-center text-2xl">Design and Product Development</h3>
         <p>
           During personal meetings with our customers, our experienced designers
@@ -16,8 +16,8 @@ function DesignAndDevelopment() {
           before manufacturing. After customer approval, the first prototypes
           are produced, which then forms the basis for later manufacturing.
         </p>
-      </div>
-      <div className="flex flex-row gap-5">
+      </section>
+      <section className="flex flex-row gap-5">
         <div className="flex flex-col gap-2">
           <p className="font-bold">
             We create prototypes and production design in:
@@ -35,8 +35,8 @@ function DesignAndDevelopment() {
           </p>
         </div>
         <img src="static/images/PIC_008-577x1024.jpg" className="h-[280px]" />
-      </div>
-    </div>
+      </section>
+    </article>
   );
 }
 

@@ -5,7 +5,7 @@ import QualityManagementTop from "./QualityManagement/QualityManagementTop";
 
 function CompanyPageDesktop() {
   return (
-    <div>
+    <main>
       <HeaderNavBar />
       <div className="relative h-[500px] flex flex-col justify-center items-center">
         <h2 className="text-black text-6xl px-3 py-6  z-10">Company Profile</h2>
@@ -14,7 +14,7 @@ function CompanyPageDesktop() {
       <QualityManagementTop />
       <CompanyOrganogram />
       <Footer />
-    </div>
+    </main>
   );
 }
 

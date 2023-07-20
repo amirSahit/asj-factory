@@ -1,6 +1,6 @@
 function DeburringTop() {
   return (
-    <div className="max-w-screen-md flex flex-col gap-4 text-xl">
+    <article className="max-w-screen-md flex flex-col gap-4 text-xl">
       <h3 className="text-2xl text-center">Deburring</h3>
       <p>
         Parts, cut from sheet metal are often not yet completed according to
@@ -19,7 +19,7 @@ function DeburringTop() {
         alt="Laser Cutter"
         className="w-[400px] h-[300px]"
       />
-    </div>
+    </article>
   );
 }
 

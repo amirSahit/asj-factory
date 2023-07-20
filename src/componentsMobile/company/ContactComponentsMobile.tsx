@@ -10,7 +10,7 @@ function ContactComponentsMobile() {
   return (
     <div className="bg-blue flex flex-col text-white">
       <NavBarMobile />
-      <div className="flex flex-col justify-between gap-2 px-4 mb-10 mt-4">
+      <article className="flex flex-col justify-between gap-2 px-4 mb-10 mt-4">
         <h2 className="text-white text-bold text-3xl text-center">
           Contact Us
         </h2>
@@ -30,12 +30,12 @@ function ContactComponentsMobile() {
           className="w-full h-[400px] p-2 bg-blue"
           loading="lazy"
         />
-        <div className="flex flex-col justify-around items-center">
+        <section className="flex flex-col justify-around items-center">
           <HiLocationMarker className="w-[60px] h-[60px]" />
           <p className="text-xl">752 Nothport Drive, Suite A</p>
           <p className="text-xl">West Sacramento, CA 95691</p>
-        </div>
-      </div>
+        </section>
+      </article>
       <FooterMobile />
     </div>
   );

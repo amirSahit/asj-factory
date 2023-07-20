@@ -1,6 +1,6 @@
 function AssembliesAndMountingTop() {
   return (
-    <div className="max-w-screen-md flex flex-col gap-4 text-xl">
+    <article className="max-w-screen-md flex flex-col gap-4 text-xl">
       <h3 className="text-2xl text-center">Assemblies / Mounting</h3>
       <p>
         Looking to add cable assemblies or wire harnesses to your prototype
@@ -16,7 +16,7 @@ function AssembliesAndMountingTop() {
         require custom assemblies. Most assemblies are quoted within 24 hours
         and shipped in 7 days standard (with no finish), expedites available.
       </p>
-      <div className="flex flex-row gap-10 justify-between items-start">
+      <section className="flex flex-row gap-10 justify-between items-start">
         <div className="flex flex-col gap-2 w-[50%]">
           <p className="font-bold">Typical Parts:</p>
           <ul className="pl-5">
@@ -36,8 +36,8 @@ function AssembliesAndMountingTop() {
             <li>• Galvanneal & Galvanized CRS</li>
           </ul>
         </div>
-      </div>
-    </div>
+      </section>
+    </article>
   );
 }
 

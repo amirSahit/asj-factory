@@ -2,22 +2,22 @@ import { IoCash, IoHome, IoSpeedometer, IoThumbsUp } from "react-icons/io5";
 
 function HomeIconsMobile() {
   return (
-    <div className="flex flex-row justify-around items-center p-5 w-full text-white text-center">
-      <div className="flex flex-col items-center gap-2">
+    <section className="flex flex-row justify-around items-center p-5 w-full text-white text-center">
+      <figure className="flex flex-col items-center gap-2">
         <IoThumbsUp className="react-icons" />
-        <p className="font-bold">High Quality</p>
+        <figcaption className="font-bold">High Quality</figcaption>
         <IoCash className="react-icons" />
-        <p className="font-bold">Fair Prices</p>
-      </div>
-      <div>
+        <figcaption className="font-bold">Fair Prices</figcaption>
+      </figure>
+      <figure>
         <div className="flex flex-col items-center gap-2">
           <IoSpeedometer className="react-icons" />
-          <p className="font-bold">Fast and Reliable</p>
+          <figcaption className="font-bold">Fast and Reliable</figcaption>
           <IoHome className="react-icons" />
-          <p className="font-bold">From One Soruce</p>
+          <figcaption className="font-bold">From One Soruce</figcaption>
         </div>
-      </div>
-    </div>
+      </figure>
+    </section>
   );
 }
 
