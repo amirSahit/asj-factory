@@ -24,7 +24,7 @@ function HomeUpperPart() {
         <h2 className="text-4xl text-blue text-center">
           YOUR PARTNER FROM START TO FINISH
         </h2>
-        <details className="flex flex-row justify-around px-16 gap-10">
+        <section className="flex flex-row justify-around px-16 gap-10">
           <p className="w-[580px]">
             ASJ is the ideal partner when it comes to
             <strong> CNC sheet metal fabrication</strong>. We are
@@ -35,7 +35,7 @@ function HomeUpperPart() {
             assembly.
           </p>
           <img src="static/images/Forming2.jpg" className="w-[580px]" />
-        </details>
+        </section>
       </article>
     </article>
   );
